@@ -1,9 +1,7 @@
 let playerPick = 0
 let compPick = 0
 let wins = 0
-
 let winLoss = ""
-
 let compImage = 0
 
 function play(playersChoice) {
