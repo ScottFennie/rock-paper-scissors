@@ -37,15 +37,15 @@ function calcComputer() {
 function calcImage() {
     if (compImage == 1) {
         document.getElementById("rpcimage").innerHTML =
-            `<img class="computer-img" src="https://m.media-amazon.com/images/I/61m9jG+jj-L._AC_SY355_.jpg" alt="">`
+            `<img class="computer-img" src="rock.gif" alt="">`
     }
     if (compImage == 2) {
         document.getElementById("rpcimage").innerHTML =
-            `<img class="computer-img" src="https://nyc3.digitaloceanspaces.com/aph/app/uploads/2019/04/26160704/1-04851-00_BL_Notebook_Paper_Punch_G-600x735.jpg" alt="">`
+            `<img class="computer-img" src="paper.gif" alt="">`
     }
     if (compImage == 3) {
         document.getElementById("rpcimage").innerHTML =
-            `<img class="computer-img" src="https://www.ikea.com/us/en/images/products/sy-scissors__0112301_pe263788_s5.jpg?f=s" alt="">`
+            `<img class="computer-img" src="sciz.gif" alt="">`
     }
 }
 
